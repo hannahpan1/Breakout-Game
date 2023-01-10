@@ -55,7 +55,7 @@ IMMUTABLE DATA:
     ADDR_KBRD:
         .word 0xffff0000
 
-Mutable Data
+MUTABLE DATA
 
     MY_BALL:
         .space 4 #address of the ball
@@ -87,11 +87,7 @@ In the mutable data section, we have the specifications of the ball. This is set
 # Feature Explanations
 
 ### Collision Behaviour
-When the ball collides while travelling North East and collide to the wall on the right, it would simply change its direction to the West while keep moving North.
-
-Similarly, when the ball collides to the left wall while travelling North West, it would simply change its direction to East while keep moving North.
-
-This idea of reflection happens in every collision. This means since our ball initially starts as diagonal movement, it would always go diagonally until the end. There is a random variable that allows for a certain randonmess in direction.
+When the ball collides while travelling North East and collide to the wall on the right, it would simply change its direction to the West while keep moving North. Similarly, when the ball collides to the left wall while travelling North West, it would simply change its direction to East while keep moving North. This idea of reflection happens in every collision. This means since our ball initially starts as diagonal movement, it would always go diagonally until the end. There is a random variable that allows for a certain randonmess in direction.
 
 ### Pause Feature
 When the key p is pressed we enter the a loop that continuously checks for p to be pressed again. Once the key p is pressed again, then we exit the loop and re enter into the game loop.
