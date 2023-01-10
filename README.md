@@ -10,7 +10,8 @@ Report of Breakout game coded in MIPS assembly language. Demo upon request.
 
     1. Open breakout.asm using Mars 4.5
     
-    2. Under Tools, open Bitmap Display and configure unit width and unit height in pixels to be 4. Set the display height and width in pixels to be 256 and the base address for the display to 0x10008000 ($gp).
+    2. Under Tools, open Bitmap Display and configure unit width and unit height in pixels to be 4. 
+       Set the display height and width in pixels to be 256 and the base address for the display to 0x10008000 ($gp).
     
     3. Under Tools, open Keyboard and Display MMIO Simulator.
     
@@ -29,7 +30,8 @@ Report of Breakout game coded in MIPS assembly language. Demo upon request.
     10. You can use ESC on the keyboard to quit the game and p on the keyboard to pause/unpause 
         the game.
     
-    11. Try to destroy all the bricks without dropping the ball to the ground! You have three lives before the game is over.
+    11. Try to destroy all the bricks without dropping the ball to the ground! 
+        You have three lives before the game is over.
 
 
 # Variables and Constants
