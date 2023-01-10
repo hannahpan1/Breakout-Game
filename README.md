@@ -3,7 +3,8 @@ Report of Breakout game coded in MIPS assembly language. Demo upon request.
 
 
 # Video of Breakout Game
-https://user-images.githubusercontent.com/98304680/211619371-7e7cc5cd-21a6-4d08-bf73-5c956bba37c0.mov
+https://user-images.githubusercontent.com/98304680/211619985-60a58c71-df0c-4fe2-a1f4-8b9cc29e0990.mov
+
 
 # Static Image of the Design
 
