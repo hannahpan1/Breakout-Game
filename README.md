@@ -1,5 +1,5 @@
 # Breakout-Game
-Report of Breakout game coded in MIPS assembly language. Demo upon request.
+Report of Breakout game coded in MIPS assembly language. Live demo upon request.
 
 
 # Video of Breakout Game
